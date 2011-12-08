@@ -1,3 +1,9 @@
+/*!
+ * cache.js
+ * Copyright Kevin Ennis 
+ * 12/7/2011
+ */
+ 
 var cache = (function(){
     var cache = {}, delim = '.';
     return function(ns, val){
