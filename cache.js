@@ -12,7 +12,7 @@ var cache = (function(){
         if (!ns) return cache;
         var arr = ns.split(delim), obj = cache, prop, i = 0, l = arr.length - 1;
         // Setter
-        if ( typeof val !== 'undefined' ){
+        if (typeof val !== 'undefined'){
             for (; i < l; i++){
                 prop = arr[i];
                 obj[prop] = obj[prop] || {};
